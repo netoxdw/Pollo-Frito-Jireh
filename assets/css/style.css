@@ -112,6 +112,7 @@ h2 {
     text-align: center;
     margin-bottom: 45px;
     font-family: "Popula cafe";
+    color: #c41230;
 }
 
 .card-menu {
@@ -125,6 +126,7 @@ h2 {
     justify-content: space-between;
     padding: 20px;
     border-radius: 20px;
+    
 }
 
 .card-menu::before {
