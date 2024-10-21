@@ -19,7 +19,7 @@ html {
 }
 
 [id] {
-    scroll-margin-top: 10px;
+    scroll-margin-top: 0px;
 }
 
 .header {
@@ -31,7 +31,7 @@ html {
 }
 
 .navbar-brand {
-    font-family: cursive;
+    font-family: "Popula cafe";
     font-weight: 600;
 }
 
@@ -285,7 +285,7 @@ iframe {
 
 @media (max-width: 575px) {
     .navbar-collapse{
-        background-color: rgba(0, 0, 0, 0.7);
+        background-color: rgba(0, 0, 2, 0.7);
         border-radius: 0px 0px 15px 15px;
         padding: 10px;
         margin-top: 9px;
