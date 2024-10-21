@@ -262,6 +262,7 @@ h2 {
 .invitation-section {
     background-color: #C41230;
     padding: 40px 0;
+    color: #f9f9f9;
 }
 
 .invitation-text {
@@ -271,6 +272,7 @@ h2 {
 
 .invitation-text h2 {
     margin-bottom: 10px;
+    color: #f9f9f9;
 }
 
 .map-container {
