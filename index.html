@@ -4,11 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pollo frito Jireh</title>
+    <title>Menú | Pollo frito Jireh</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="shortcut icon" href="/assets/img/favicon.png" type="image/x-icon">
 
     <!-- Font Awesome CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
@@ -23,7 +24,8 @@
             <div class="container">
                 <!-- Logo -->
                 <a class="navbar-brand" href="#">
-                    <img src="/assets/img/logoipsum-327.svg" alt="" width="30" height="30" class="d-inline-block align-text-top">
+                    <img src="/assets/img/pollo_frito_jireh.png" alt="" width="30" height="30"
+                        class="d-inline-block align-text-top">
                     Pollo Frito Jireh
                 </a>
 
@@ -37,18 +39,26 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav mx-auto">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                            <a class="nav-link active" href="#paquetes">Paquetes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Menú</a>
+                            <a class="nav-link active" href="#entradas">Entradas</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Paquetes</a>
+                            <a class="nav-link active" href="#bebidas">Bebidas</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Ubicación</a>
+                            <a class="nav-link active" href="#ubicacion">Ubicación</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#horarios">Horarios</a>
                         </li>
                     </ul>
+                    <a href="https://wa.me/tu-numero-de-telefono" target="_blank">
+                        <button type="button" class="btn btn-success">
+                            <i class="fab fa-whatsapp"></i> Contáctanos
+                        </button>
+                    </a>
                 </div>
             </div>
         </nav>
@@ -75,7 +85,7 @@
 
 
     <!-- Sección del Menú con Tarjetas -->
-    <section class="menu container my-5">
+    <section class="menu container my-5" id="paquetes">
         <h2>Paquetes para ti y tus amigos</h2>
         <div class="row">
             <!-- Tarjeta 1 -->
@@ -88,7 +98,8 @@
                             <li>Papas fritas</li>
                             <li>2 refrescos</li>
                         </ul>
-                        <a href="https://wa.me/5215617952550?text=Ordenar+paquete+1" class="btn btn-success" target="_blank">Ordenar por WhatsApp</a>
+                        <a href="https://wa.me/5215617952550?text=Ordenar+paquete+1" class="btn btn-success"
+                            target="_blank">Ordenar por WhatsApp</a>
                     </div>
                 </div>
             </div>
@@ -103,7 +114,8 @@
                             <li>Papas fritas</li>
                             <li>1 refresco</li>
                         </ul>
-                        <a href="https://wa.me/5215617952550?text=Ordenar+paquete+1" class="btn btn-success" target="_blank">Ordenar por WhatsApp</a>
+                        <a href="https://wa.me/5215617952550?text=Ordenar+paquete+1" class="btn btn-success"
+                            target="_blank">Ordenar por WhatsApp</a>
                     </div>
                 </div>
             </div>
@@ -118,7 +130,8 @@
                             <li>Papas fritas</li>
                             <li>2 refrescos</li>
                         </ul>
-                        <a href="https://wa.me/5215617952550?text=Ordenar+paquete+1" class="btn btn-success" target="_blank">Ordenar por WhatsApp</a>
+                        <a href="https://wa.me/5215617952550?text=Ordenar+paquete+1" class="btn btn-success"
+                            target="_blank">Ordenar por WhatsApp</a>
                     </div>
                 </div>
             </div>
@@ -133,7 +146,8 @@
                             <li>Papas fritas</li>
                             <li>4 refrescos</li>
                         </ul>
-                        <a href="https://wa.me/5215617952550?text=Ordenar+paquete+1" class="btn btn-success" target="_blank">Ordenar por WhatsApp</a>
+                        <a href="https://wa.me/5215617952550?text=Ordenar+paquete+1" class="btn btn-success"
+                            target="_blank">Ordenar por WhatsApp</a>
                     </div>
                 </div>
             </div>
@@ -148,7 +162,8 @@
                             <li>1 refresco</li>
                             <li>Postre</li>
                         </ul>
-                        <a href="https://wa.me/5215617952550?text=Ordenar+paquete+1" class="btn btn-success" target="_blank">Ordenar por WhatsApp</a>
+                        <a href="https://wa.me/5215617952550?text=Ordenar+paquete+1" class="btn btn-success"
+                            target="_blank">Ordenar por WhatsApp</a>
                     </div>
                 </div>
             </div>
@@ -156,7 +171,7 @@
     </section>
 
     <!-- Sección de Entradas -->
-    <section class="container my-5">
+    <section class="container my-5" id="entradas">
         <h2 class="text-center mb-4">Entradas</h2>
         <div class="row">
             <!-- Entrada 1: Papas Fritas -->
@@ -165,7 +180,8 @@
                     <div class="card-content">
                         <h3>Papas Fritas</h3>
                         <p>Crujientes y doradas papas fritas servidas con salsa de la casa.</p>
-                        <a href="https://wa.me/5215617952550?text=Ordenar+paquete+1" class="btn btn-success" target="_blank">Ordenar por WhatsApp</a>
+                        <a href="https://wa.me/5215617952550?text=Ordenar+paquete+1" class="btn btn-success"
+                            target="_blank">Ordenar por WhatsApp</a>
                     </div>
                 </div>
             </div>
@@ -176,7 +192,8 @@
                     <div class="card-content">
                         <h3>Nuggets de Pollo</h3>
                         <p>Deliciosos nuggets de pollo empanizados acompañados de papas fritas.</p>
-                        <a href="https://wa.me/5215617952550?text=Ordenar+paquete+1" class="btn btn-success" target="_blank">Ordenar por WhatsApp</a>
+                        <a href="https://wa.me/5215617952550?text=Ordenar+paquete+1" class="btn btn-success"
+                            target="_blank">Ordenar por WhatsApp</a>
                     </div>
                 </div>
             </div>
@@ -187,7 +204,8 @@
                     <div class="card-content">
                         <h3>Aros de Cebolla</h3>
                         <p>Aros de cebolla crujientes con un toque especial de la casa.</p>
-                        <a href="https://wa.me/5215617952550?text=Ordenar+paquete+1" class="btn btn-success" target="_blank">Ordenar por WhatsApp</a>
+                        <a href="https://wa.me/5215617952550?text=Ordenar+paquete+1" class="btn btn-success"
+                            target="_blank">Ordenar por WhatsApp</a>
                     </div>
                 </div>
             </div>
@@ -198,14 +216,15 @@
                     <div class="card-content">
                         <h3>Alitas de Pollo</h3>
                         <p>Jugosas alitas bañadas en salsa BBQ o Buffalo, a tu elección.</p>
-                        <a href="https://wa.me/5215617952550?text=Ordenar+paquete+1" class="btn btn-success" target="_blank">Ordenar por WhatsApp</a>
+                        <a href="https://wa.me/5215617952550?text=Ordenar+paquete+1" class="btn btn-success"
+                            target="_blank">Ordenar por WhatsApp</a>
                     </div>
                 </div>
             </div>
     </section>
 
     <!-- Sección de Bebidas -->
-    <section class="container my-5">
+    <section class="container my-5" id="bebidas">
         <h2 class="text-center mb-4">Bebidas</h2>
         <div class="row">
             <!-- Bebida 1: Aguas Frescas -->
@@ -231,11 +250,11 @@
     </section>
 
     <!-- Sección Invitación al Restaurante con Mapa -->
-    <section class="invitation-section">
+    <section class="invitation-section" id="ubicacion">
         <div class="container">
             <div class="invitation-text">
                 <h2>¡Ven a Disfrutar de Nuestro Pollo Frito!</h2>
-                <p>Te invitamos a visitarnos en nuestro restaurante. ¡Te esperamos con los brazos abiertos!</p>
+                <p>¡Te esperamos con los brazos abiertos!</p>
             </div>
             <div class="map-container">
                 <h4>Ubicación</h4>
@@ -249,51 +268,94 @@
     </section>
 
     <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="row">
-                <!-- Logo y Horarios -->
-                <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
-                    <h5 class="text-uppercase mb-4">Servicio</h5>
-          
-                    <table class="table text-center text-white">
-                      <tbody class="font-weight-normal">
-                        <tr>
-                          <td>Lunes - Viernes:</td>
-                          <td>9am - 9pm</td>
-                        </tr>
-                        <tr>
-                          <td>Sabado - Domingo:</td>
-                          <td>10am - 10pm</td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
+    <footer class="text-white text-center text-lg-start" style="background-color: #23242a;" id="horarios">
+        <!-- Grid container -->
+        <div class="container p-4">
+            <!--Grid row-->
+            <div class="row mt-4">
 
-                <!-- Redes Sociales -->
-                <div class="redes col-md-4 text-center">
-                    <h4>Síguenos en</h4>
-                    <div class="social-icons">
-                        <a href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook"></i></a>
-                        <a href="https://www.instagram.com" target="_blank"><i class="bi bi-instagram"></i></a>
-                        <a href="https://www.twitter.com" target="_blank"><i class="bi bi-twitter"></i></a>
+                <!--Grid column-->
+                <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-4">Horarios</h5>
+
+                    <table class="table text-center text-white">
+                        <tbody class="font-weight-normal">
+                            <tr>
+                                <td>Lunes - Jueves:</td>
+                                <td>10am - 9pm</td>
+                            </tr>
+                            <tr>
+                                <td>Viernes - Domingo:</td>
+                                <td>10am - 10pm</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!--Grid column-->
+                <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-4">¿Quienes somos?</h5>
+
+                    <p>
+                        Pollo frito hecho con amor y tradición. ¡Ven a probarlo y compruébalo tú mismo!"
+                    </p>
+
+                    <p>
+                        ¡Alerta de adicción! Nuestro pollo frito es tan delicioso que no podrás comer solo uno.
+                    </p>
+
+
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+
+
+                    <ul class="fa-ul" style="margin-left: 1.65em;">
+                        <li class="mb-3">
+                            <span class="fa-li"><i class="fas fa-home"></i></span><span class="ms-2">San Pedro
+                                Zacatenco, La Rioja #1136 A. CDMX</span>
+                        </li>
+                        <li class="mb-3">
+                            <span class="fa-li"><i class="fas fa-phone"></i></span><span class="ms-2">+52 55 7211
+                                6988</span>
+                        </li>
+                    </ul>
+                    <div class="mt-4">
+                        <!-- Facebook -->
+                        <a type="button" class="btn btn-floating btn-warning btn-lg"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <!-- Dribbble -->
+                        <a type="button" class="btn btn-floating btn-warning btn-lg"><i
+                                class="fab fa-instagram"></i></a>
+                        <!-- Twitter -->
+                        <a type="button" class="btn btn-floating btn-warning btn-lg"><i class="fab fa-tiktok"></i></a>
+                        <!-- Google + -->
+                        <a type="button" class="btn btn-floating btn-warning btn-lg"><i
+                                class="fas fa-map-marker-alt"></i></a>
+
+                        <!-- Linkedin -->
                     </div>
                 </div>
-
-                <!-- Reservaciones o Pedidos -->
-                <div class="col-md-4 text-center">
-                    <h4>Reservaciones o Pedidos</h4>
-                    <p class="footer-number">Llámanos al: <br> <a href="tel:+521XXXXXXXXXX" class="text-white">+52 1 XXXXXXXX</a></p>
-                </div>
             </div>
+            <!--Grid row-->
         </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2024 Copyright:
+            <a class="text-white" href="#">PolloFritoJireh</a>
+        </div>
+        <!-- Copyright -->
     </footer>
 
 
 
     <!-- Bootstrap 5 JS (opcional para funcionalidades de colapsado) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.5.0/font/bootstrap-icons.css" rel="stylesheet">
+    <script src="/assets/scripts/app.js"></script>
+
 </body>
 
 </html>
