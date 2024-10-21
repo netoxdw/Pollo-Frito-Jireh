@@ -30,9 +30,8 @@ html {
     z-index: 1;
 }
 
-.navbar-brand {
+.logo-navbar {
     font-family: "Popula cafe";
-    font-weight: 300;
 }
 
 .nav-item {
