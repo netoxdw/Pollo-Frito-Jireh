@@ -104,7 +104,8 @@ h1 {
 
 
 /* MENU */
-.menu {
+.menu,
+.pzs-sueltas {
     padding-top: 50px;
 }
 
@@ -115,7 +116,8 @@ h2 {
     color: #c41230;
 }
 
-.card-menu {
+.card-menu,
+.card-sueltas {
     color: white;
     position: relative;
     background-size: cover;
@@ -129,7 +131,8 @@ h2 {
     
 }
 
-.card-menu::before {
+.card-menu::before,
+.card-sueltas::before {
     content: '';
     position: absolute;
     top: 0;
@@ -164,6 +167,11 @@ h2 {
 .card-content a {
     align-self: flex-end;
     /* Alinea el botón al final de la tarjeta */
+}
+
+.card-sueltas {
+    height: auto;
+
 }
 
 /* Engradas */
