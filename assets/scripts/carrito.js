@@ -12,6 +12,23 @@ function agregarAlCarrito(producto, precio) {
 
     actualizarCarrito();
     actualizarNotificacion();
+    mostrarMensajeAgregado(); // Llama a la función para mostrar el mensaje
+}
+
+function mostrarMensajeAgregado() {
+    const mensaje = document.createElement('div');
+    mensaje.className = 'alert alert-success position-fixed bottom-0 end-2 m-3';
+    mensaje.style.right = '70px';
+    mensaje.style.zIndex = 1000;
+    mensaje.textContent = 'Para continuar presiona sobre el carrito.';
+
+    
+    document.body.appendChild(mensaje);
+    
+    // Elimina el mensaje después de unos segundos
+    setTimeout(() => {
+        document.body.removeChild(mensaje);
+    }, 3000);
 }
 
 function actualizarCarrito() {
@@ -74,7 +91,6 @@ function cerrarCarrito() {
     document.getElementById('carrito-icono').style.display = 'flex'; // Muestra el ícono del carrito
 }
 
-
 function finalizarPedido() {
     if (carrito.length === 0) {
         alert('El carrito está vacío. Agrega uno o más productos antes de finalizar el pedido.');
@@ -84,7 +100,6 @@ function finalizarPedido() {
     const modal = document.getElementById('modal');
     modal.style.display = 'block';
 }
-
 
 function cerrarModal() {
     const modal = document.getElementById('modal');
@@ -108,6 +123,6 @@ function enviarPedido() {
     });
     mensaje += `\nTotal a pagar: $${total}`;
 
-    const url = `https://api.whatsapp.com/send?phone=5212311741843&text=${encodeURIComponent(mensaje)}`;
+    const url = `https://api.whatsapp.com/send?phone=5215572116988&text=${encodeURIComponent(mensaje)}`;
     window.open(url, '_blank');
 }

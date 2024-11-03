@@ -74,6 +74,13 @@ h1 {
     font-weight: 500;
 }
 
+.hero a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
 /* Flechas hacia abajo */
 .arrow-down {
     margin-top: 20px;
@@ -128,7 +135,7 @@ h2 {
     justify-content: space-between;
     padding: 20px;
     border-radius: 20px;
-    
+
 }
 
 .card-menu::before,
@@ -315,6 +322,7 @@ iframe {
     cursor: pointer;
     z-index: 1000;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    animation: bounce 1s infinite; /* Añadir la animación */
 }
 
 /* Notificación tipo badge */
@@ -394,10 +402,10 @@ iframe {
 
 
 @media (max-width: 575px) {
-    .navbar-collapse{
+    .navbar-collapse {
         background-color: rgba(0, 0, 2, 0.7);
         border-radius: 0px 0px 15px 15px;
         padding: 10px;
         margin-top: 9px;
     }
-  }
+}
