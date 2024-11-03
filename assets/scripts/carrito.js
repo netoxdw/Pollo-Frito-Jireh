@@ -66,11 +66,14 @@ document.getElementById('carrito-icono').addEventListener('click', abrirCarrito)
 
 function abrirCarrito() {
     document.getElementById('carrito-popup').style.display = 'block';
+    document.getElementById('carrito-icono').style.display = 'none'; // Oculta el ícono del carrito
 }
 
 function cerrarCarrito() {
     document.getElementById('carrito-popup').style.display = 'none';
+    document.getElementById('carrito-icono').style.display = 'flex'; // Muestra el ícono del carrito
 }
+
 
 function finalizarPedido() {
     if (carrito.length === 0) {
