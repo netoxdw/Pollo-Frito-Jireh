@@ -59,6 +59,10 @@ h1 {
 
 
 /* Video de fondo */
+.hero{
+    background-color: rgba(202, 135, 11, 0.15)
+    ;
+}
 .hero video {
     position: absolute;
     top: 0;
